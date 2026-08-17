@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "securepass",
+    "slug": "securepass",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "securepass",
+    "userInterfaceStyle": "automatic",
+    "predictiveBackGestureEnabled": false,
+    "android": {
+      "package": "com.anonymous.securepass"
+    },
+    "ios": {
+      "bundleIdentifier": "com.anonymous.securepass"
+    }
+  },
+  "web": {
+    "output": "static"
+  },
+  "plugins": [
+    "expo-router",
+    [
+      "expo-splash-screen",
+      {
+        "backgroundColor": "#208AEF",
+        "imageWidth": 76
+      }
+    ]
+  ],
+  "experiments": {
+    "typedRoutes": true,
+    "reactCompiler": true
+  }
+}
